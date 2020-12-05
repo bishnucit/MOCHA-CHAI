@@ -1,0 +1,17 @@
+{
+  "name": "sampleone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "require": "^2.4.20"
+  }
+}
