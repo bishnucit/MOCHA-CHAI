@@ -28,3 +28,15 @@ describe('STRING CHECK', function () {
         //throw {myError:'use this to fail the test'}
     });
 });
+
+
+describe('isValidUIDAsync', function(){
+
+    it('return true on match', function(done){
+        loginEngine.isValidUIDAsync(['happy','sad'], 'happy',
+      function(isValid){
+          assert.equal(isValid, true);
+          done();
+      });
+    });
+});
